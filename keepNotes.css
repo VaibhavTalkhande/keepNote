@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Obritron', sans-serif;
+}
+.container{
+    font-family: 'Obritron', sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    padding: 23px;
+    background-color: black;
+    justify-content: space-between;
+
+}
+
+#input-box{
+    font-family: 'Orbitron', sans-serif;
+    border: 1px solid black;
+    box-shadow: 0 0 10px blueviolet;
+    padding: 23px;
+    display: block;
+    width: 50%;
+    margin: auto;
+    border-radius: 0.5rem;
+    
+}
+
+input, textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-top: 6px;
+    color: white;
+    background-color: transparent;
+}
+
+button{
+    font-family: 'Orbitron', sans-serif;
+    position: relative;
+    background: transparent;
+    font-size: 15px;
+    color: white;
+    padding: 8px 12px;
+    border: 2px solid white;
+}
+.deleteNote{
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    cursor: pointer;
+    right: 0;
+    margin-top: 60%;  
+    background: transparent;
+    color: red;
+    padding: 8px 12px;
+    border: none;
+}
+.deleteNote:hover{
+    color: white;
+}
+hr{
+    border: 1px solid blueviolet;
+    box-shadow: 0 0 10px blueviolet;
+    margin: 23px 0;
+}
+#archive{
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 23px;
+    color: white;
+}
+#trashNotes{
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px;
+    color: white;
+}
+.archiveNote{
+    font-family: 'Orbitron', sans-serif;
+    right: 0;
+    margin-top: 60%;  
+    background: transparent;
+    color: white;
+    padding: 8px 12px;
+    border: 2px solid white;
+}
+.undoNote{
+    font-family: 'Orbitron', sans-serif;
+    right: 0;
+    margin-top: 60%;  
+    background: transparent;
+    color: white;
+    padding: 8px 12px;
+    border: 1px solid white;
+}
+.title{
+    font-family: 'Orbitron', sans-serif;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: relative;
+    margin-top: 0.1rem;
+    top: 0.5rem;
+}
+.text{
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    font-size: 1rem;
+    color: rgb(155, 152, 152);
+    position: absolute;
+    margin-top: 2rem;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+    width: 200px;
+}
+#notes{
+    font-family: 'Orbitron', sans-serif;
+    padding: 23px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    color: blueviolet;
+    /* justify-content: space-evenly; */
+}
+.note{
+    font-family: 'Orbitron', sans-serif;
+    height:max-content;
+    width: 300px;
+    color: white;
+    overflow-wrap: break-word;
+    margin: 12px;
+    padding: 12px;
+    box-shadow: 0 0 10px blueviolet;
+    background-color: black;
+    
+    border-radius: 1rem;
+}
+#note-section{
+    font-family: 'Orbitron', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 23px;
+}
+
+.deleteNote{
+    float: right;
+    font-family: 'Orbitron', sans-serif;
+}
+header{
+    display: flex;
+    font-family: 'Orbitron', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px;
+    background-color:black;
+    color: white;
+    position: sticky;
+    border-bottom: blueviolet 1px solid;
+    box-shadow: 0 0 10px blueviolet;
+}
+h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+}
+#navigation-container{
+    display: flex;
+    font-family: 'Orbitron', sans-serif;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    position: sticky;
+    width: 30%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+#searchNotes{
+    background-color: transparent;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    border: 1px solid rgb(227, 218, 218);
+    border-radius: 1rem;
+    padding: 8px 100px;
+    width: 50%;
+    margin-left: auto;
+
+}
+#searchNotes:focus{
+    outline: none;
+}
+#searchNotes::placeholder{
+    color: white;
+}
+.editNote{
+    float: right;
+    border: none;
+    color: green;
+}
+.editNote:hover{
+    color: white;
+}
+#archive-btn, #trash-btn, #notes-btn{
+    background-color: transparent;
+    color: blueviolet;
+    border: 1px solid black;
+    box-shadow: 0 0 10px blueviolet;
+    border-radius: 0.5rem;
+    padding: 8px 12px;
+    width: 50%;
+    margin: 20px;
+    justify-content: space-evenly;
+    font-family: 'Orbitron', sans-serif;
+}

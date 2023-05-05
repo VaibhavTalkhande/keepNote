@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="keepNotes.css">
+    <title>My Notes App</title>
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+</head>
+<body>
+       <header>
+        <h1>keepNotes</h1>
+        <input type="text" id="searchNotes" placeholder="Search"></i>
+       </header>
+    <div class="container">
+        <div id="navigation-container">
+            <button class="btn active" id="notes-btn">Notes</button>
+            <button class="btn" id="archive-btn">Archive</button>
+            <button class="btn" id="trash-btn">Trash</button>
+        </div>
+         
+        <div id="input-box">
+            <input type="text" id="addTitle" placeholder="Title">
+            <textarea name="" id="addText" cols="30" rows="10" placeholder="Take a note.."></textarea>
+            <button id="addNote">Add</button>
+        </div>
+
+        <div id="notes">
+            <h2>Notes</h2>
+        </div> 
+       <div id="archive">
+            
+        </div>
+        <div id="trashNotes">
+            <h2>Trash</h2>
+        </div>
+    </div>
+    
+
+
+    <script src="keepNotes.js"></script>
+</body>
+</html>
