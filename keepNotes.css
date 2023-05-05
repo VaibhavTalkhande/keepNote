@@ -233,10 +233,11 @@ h1{
     #navigation-container{
         width: 100%;
         justify-content: space-around;
+        align-items: center;
         
     }
     #searchNotes{
-        width: 100%;
+        display: none;
         
     }
     .btn{
