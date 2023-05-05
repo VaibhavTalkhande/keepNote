@@ -253,6 +253,8 @@ h1{
     .text{
         width: 100%;
         margin-left: 20px;
+        overflow-wrap: break-word;
+        text-overflow: ellipsis;
     }
     .note{
         width: 100%;
